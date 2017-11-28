@@ -11,15 +11,17 @@
 // about supported directives.
 // require materialize - can be swapped for materialize-sprockets
 //
-//= require rails-ujs
-//= require turbolinks
-//= require_tree .
 //= require jquery3
 //= require jquery_ujs
+//= require rails-ujs
+//= require turbolinks
 //= require materialize-sprockets
+//= require_self
+//= require_tree .
 
 $(document).ready(function(){
-  $('#open-search').click(function(){
+  $('#open-search').click(function(e){
+    e.preventDefault();
     $('#search-box').removeClass('hide');
     $('body').addClass('no-scroll');
   });

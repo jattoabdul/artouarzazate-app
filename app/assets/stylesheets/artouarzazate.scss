@@ -1,0 +1,465 @@
+
+/*
+  Author: Aminujatto Abdulqahhar
+  Email: jattoade@gmail.com
+  Github: github.com/jattoabdul
+*/
+
+/* =====================================
+   Start of font size adjustments
+   NB: In your html you can use them for icons and text
+   e.g <i class="icon ion-social-facebook x15"></i> to adjust the font-size of the icon to 1.5rem
+*/
+
+.x1 {
+  font-size: 1rem;
+}
+
+.x15 {
+  font-size: 1.5rem;
+}
+
+.x2 {
+  font-size: 2rem;
+}
+
+.x25 {
+  font-size: 2.5rem;
+}
+
+.x3 {
+  font-size: 3rem;
+}
+
+.x35 {
+  font-size: 3.5rem;
+}
+
+.x4 {
+  font-size: 4rem;
+}
+
+.x45 {
+  font-size: 4.5rem;
+}
+
+.x5 {
+  font-size: 5rem;
+}
+
+.x55 {
+  font-size: 5.5rem;
+}
+/* End of font size adjustment
+* =============================
+*/
+
+/* ===================================
+*  Start of Custom Styles for artouarzazate
+*/
+
+nav>.container {
+  width: 95%;
+}
+
+ul.social i.icon {
+  margin-right: 1rem;
+}
+
+#site-name img {
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+#top-panel {
+  margin-bottom: 1rem;
+}
+
+#top-panel ul.right {
+  margin-right: 3rem;
+  line-height: 1;
+}
+
+#top-panel ul li {
+  display: inline;
+}
+
+#top-panel ul li a {
+  padding: 0.5rem 1rem;
+  font-weight: 300;
+}
+
+.dash-line {
+  border-top: 1px solid rgba(141, 110, 99, 0.75);
+  border-bottom: 1px solid rgba(141, 110, 99, 0.75);
+  height: 10px;
+}
+
+header#site-name h3 {
+  margin: 0;
+  font-style: italic;
+  font-family: 'monotype corsiva', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav li {
+  display: inline;
+}
+
+#nav li a {
+  padding: 0.5rem 1rem;
+  color: #3E2723;
+}
+
+#nav li a.active {
+  border-bottom: 1px solid #3E2723;
+}
+
+main.container {
+  width: 90%;
+}
+
+section {
+  padding-bottom: 5rem;
+}
+
+#main-categories .card .card-image .card-title {
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  padding-top: 25%;
+  font-size: 2.5rem;
+}
+
+section .section-title span {
+  border-bottom: 1px solid #3E2723;
+  padding-bottom: 10px;
+}
+
+/* #dernieres .section-content {
+  margin-top: 3.5rem;
+} */
+
+section .section-content .col {
+  margin: 3.5rem 0 3rem;
+}
+
+#dernieres .card.horizontal .card-content>p {
+  font-size: large;
+}
+
+#inspiration .card .card-action {
+  min-height: 7rem;
+}
+
+#media .video-container {
+  border: 1rem solid #5D4037;
+}
+
+#footer li {
+  display: inline;
+}
+
+#footer .btn-floating.btn-large {
+  width: 40px;
+  height: 40px;
+  margin-top: -1rem;
+}
+
+#footer .btn-floating.btn-large i {
+  line-height: 40px;
+}
+
+.fence {
+  border-top: 5px double rgba(93, 64, 55, 0.43);
+  border-bottom: 5px double rgba(93, 64, 55, 0.43);
+  height: 5rem;
+}
+
+.fence a.brand-logo {
+  margin-right: -2rem;
+  margin-top: -2.3rem;
+}
+
+.fence li.nolink {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+input#email {
+  border: 1px solid;
+  height: 2.6rem;
+  width: 98%;
+  padding: 0 2%;
+  margin-top: -4px;
+}
+
+#submitEmail {
+  height: 40px;
+  margin-top: 11px !important;
+  line-height: 40px;
+}
+
+#footer {
+  margin-bottom: 0;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0 !important;
+}
+
+#last-part {
+  width: 90%;
+  display: block;
+  margin: -3% 4% 2rem;
+}
+
+#last-part li {
+  display: inline-block
+}
+
+#last-part ul.left li {
+  padding: 0.5rem 1rem;
+}
+
+#listing-list h4 small {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+#listing-list {
+  margin-top: 5%;
+}
+
+#listing-list span {
+  display: inline;
+  margin-left: 1rem;
+}
+
+/* #listing-list span.category-text {} */
+
+#listing-list span.product-name {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#listing-list span.price {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+#listing-list.row .col.m6 {
+  margin: 0;
+}
+
+#listing-list.row .col.m6:last-child {
+  margin-bottom: 5%;
+}
+
+ul.pagination {
+  margin: 0 30%;
+}
+
+.pagination li.active {
+  background-color: rgba(238, 110, 115, 0);
+  border: 1.5px #444444 solid;
+  border-radius: 0;
+}
+
+.pagination li.active a {
+  color: #2b2a2a;
+}
+
+#breadcrumb {
+  padding-left: 5%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+#breadcrumb span a {
+  color: inherit;
+}
+
+#breadcrumb span.here {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.divider.container {
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+#product-on-product {}
+
+.product-heading>span.left {
+  text-decoration: underline;
+  margin-top: -1rem;
+}
+
+.product-heading>span.right {
+  font-weight: 500
+}
+
+img[alt="Product Picture"] {
+  min-height: 20rem;
+}
+
+#product-alternatives .card .card-content {
+  padding: 8px 15px;
+}
+
+#product-alternatives .section-content span {
+  display: block;
+}
+
+#product-alternatives .section-content span.product-name {
+  font-size: 2rem;
+  line-height: 100%;
+}
+
+#product-alternatives .section-content span.price {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+#search-box {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
+
+#search-box .container {
+  width: 90%;
+}
+
+body.no-scroll {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#search-box input[type="search"] {
+  font-size: 2rem;
+}
+
+#femme-drop {
+  position: fixed;
+  top: 13rem;
+  width: auto;
+  border: 1px solid rosybrown;
+  left: 24%;
+  padding: 0 1.5rem;
+  height: auto;
+  min-height: 5rem;
+  background: white;
+}
+
+#femme-drop .col.m6:last-child {
+  padding-right: 7rem;
+}
+
+#femme-drop ul.right {
+  min-width: 12rem;
+}
+
+#femme-drop::after {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #ffffff;
+  position: absolute;
+  top: -5.5%;
+  left: 33%;
+}
+
+#femme-drop li a {
+  color: #5d5348;
+  line-height: 2rem;
+  letter-spacing: 3px;
+}
+
+#femme-drop li {
+  min-width: 120%;
+}
+
+#femme-drop li span {
+  border-bottom: 1px solid #bba894;
+  padding-bottom: 5px;
+}
+
+#femme-drop li:last-child {
+  border-bottom: none;
+}
+
+#femme-drop .solo-product span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#femme-drop .solo-product span.title {
+  display: block;
+  font-size: 0.9rem;
+  color: #9E9E9E;
+  padding-bottom: 4px;
+}
+
+#femme-drop .solo-product span.product_name {
+  display: block;
+  padding-bottom: 0.5rem;
+}
+
+#femme-drop .solo-product span.price {
+  font-weight: bold;
+}
+
+#cart-table tbody td .card {
+  max-width: 8rem;
+}
+
+#cart-table tbody ul {
+  padding: 0;
+  margin: -15px 5px;
+}
+
+#cart-table td ul > li {
+  display: inline;
+}
+
+#cart-table td ul > li ul li {
+  display: block;
+  margin-left: 2rem;
+  padding-top: 0.4rem;
+}
+
+#cart-table td ul > li ul {
+  padding-top: 0.5rem;
+}
+
+#cart-table .box {
+  border: 2px solid #bba894;
+  padding: 0.8rem 1.4rem;
+  font-size: 1.5rem;
+}
+
+#cart-table tbody>tr>td {
+  padding: 15px 5px 0px;
+}
+
+#cart-table td.price {
+  font-size: 1.3rem;
+}
+
+#cart-table td span.total, #cart-table td span.tva, #cart-table td span.no_of_products, #cart-table td span.grand-total {
+  font-size: 1.5rem;
+  display: block;
+}
+
+#conditions .container {
+  width: 90%;
+}
