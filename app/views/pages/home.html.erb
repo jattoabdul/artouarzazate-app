@@ -33,8 +33,9 @@
       </h4>
     </div>
     <div class="section-content">
-      <div class="col s12 l4">
-        <div class="card horizontal">
+      <div class="row">
+        <div class="col s12 l4">
+        <div class="card horizontal book-item">
           <div class="card-image">
             <%= image_tag('grad.jpg', alt:"sample book cover") %>
           </div>
@@ -44,8 +45,8 @@
                 <small>
                   <b>Romeo and Juliet</b>
                 </small>
-                <br> romance
-                <br> William Shakespeare
+                <br> <span>William Shakespeare</span>
+                <br> <span>romance</span>
                 <br> 3 500 &euro;
               </p>
             </div>
@@ -53,7 +54,7 @@
         </div>
       </div>
       <div class="col s12 l4">
-        <div class="card horizontal">
+        <div class="card horizontal book-item">
           <div class="card-image">
             <%= image_tag('grad.jpg', alt:"sample book cover") %>
           </div>
@@ -63,8 +64,8 @@
                 <small>
                   <b>Harry Potter</b>
                 </small>
-                <br> adventure
-                <br> 	J. K. Rowling
+                <br> <span>J. K. Rowling</span>
+                <br> <span>adventure</span>
                 <br> 3 500 &euro;
               </p>
             </div>
@@ -72,7 +73,7 @@
         </div>
       </div>
       <div class="col s12 l4">
-        <div class="card horizontal">
+        <div class="card horizontal book-item">
           <div class="card-image">
             <%= image_tag('grad.jpg', alt:"sample product") %>
           </div>
@@ -82,15 +83,16 @@
                 <small>
                   <b>Mind; Police of the believer</b>
                 </small>
-                <br> religious
-                <br> jatto aminu
+                <br> <span>Jatto Aminu</span>
+                <br> <span>religious</span>
                 <br> 3 500 &euro;
               </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+    </div>  
     <p class="center">
       <button class="btn-large brown darken-4">View More</button>
     </p>
@@ -101,9 +103,9 @@
         <span>Our Best Sellers</span>
       </h4>
     </div>
-    <div class="section-content">
-      <div class="col s12 l6">
-        <div class="card">
+    <div class="section-content row">
+      <div class="col s12 l4 best-seller-card">
+        <div class="card best-seller-item">
           <div class="card-image">
             <%= image_tag('grad.jpg', alt:"sample best seller products") %>
             <span class="card-title">Card Title</span>
@@ -115,8 +117,8 @@
           </div>
         </div>
       </div>
-      <div class="col s12 l6">
-        <div class="card">
+      <div class="col s12 l4 best-seller-card">
+        <div class="card best-seller-item">
           <div class="card-image">
             <%= image_tag('grad.jpg', alt:"sample best seller products") %>
             <span class="card-title">Card Title</span>
@@ -125,6 +127,21 @@
                         </div>-->
           <div class="card-action">
             <a href="#" class="flow-text blue-grey-text text-darken-4">Style eclectique avec la Moroccan Touch
+              <br>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 l4 best-seller-card">
+        <div class="card best-seller-item">
+          <div class="card-image">
+            <%= image_tag('grad.jpg', alt:"sample best seller products") %>
+            <span class="card-title">Card Title</span>
+          </div>
+          <!--<div class="card-content">
+                        </div>-->
+          <div class="card-action">
+            <a href="#" class="flow-text blue-grey-text text-darken-4">lorem ipsum eloet dolet semp fisch
               <br>
             </a>
           </div>
