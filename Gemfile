@@ -35,8 +35,12 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 # custom gems
+gem 'jquery-rails'
 gem 'materialize-sass', '~> 1.0.0.alpha1'
 gem 'material_icons'
+gem 'font-awesome-rails'
+gem 'font-ionicons-rails'
+gem 'animate-css-rails'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

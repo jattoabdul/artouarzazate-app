@@ -13,5 +13,26 @@
 //
 //= require rails-ujs
 //= require turbolinks
-//= require materialize-sprockets
 //= require_tree .
+//= require jquery3
+//= require jquery_ujs
+//= require materialize-sprockets
+
+$(document).ready(function(){
+  $('#open-search').click(function(){
+    $('#search-box').removeClass('hide');
+    $('body').addClass('no-scroll');
+  });
+
+  $('#close-search').click(function(){
+    $('#search-box').addClass('hide');
+    $('body').removeClass('no-scroll');
+  });
+
+  $('#activate-femme-drop').mouseover(function(){
+    $('#femme-drop').removeClass('hide');
+  });
+  $('#femme-drop').mouseleave(function(){
+    $('#femme-drop').addClass('hide');
+  });
+});
