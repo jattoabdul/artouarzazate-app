@@ -42,6 +42,12 @@ gem 'font-awesome-rails'
 gem 'font-ionicons-rails'
 gem 'animate-css-rails'
 
+# gem for accepting payment 
+# Paystack
+gem 'paystack', :git => 'https://github.com/IkoroVictor/paystack-ruby'
+# Stripe
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

@@ -128,8 +128,9 @@ section {
   width: 100%;
   text-align: center;
   top: 0;
-  padding-top: 25%;
-  font-size: 2.5rem;
+  bottom: 0;
+  padding-top: 20%;
+  font-size: 1.5rem;
 }
 
 section .section-title span {
@@ -478,4 +479,25 @@ body.no-scroll {
 
 .best-seller-card .card.best-seller-item img {
   height: 19rem;
+}
+
+#footer .quick-link {
+  color: #3e2723;
+  cursor: pointer;
+}
+
+.borderlist {
+  margin: 10px;
+}
+
+#footer .quick-link:hover {
+  color: #bba894;
+  cursor: pointer;
+}
+
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #3e2723;
+  -webkit-box-shadow: 0 1px 0 0 #3e2723;
+  box-shadow: 0 1px 0 0 #3e2723;
 }
