@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # custom gems
 gem 'jquery-rails'
@@ -42,11 +42,23 @@ gem 'font-awesome-rails'
 gem 'font-ionicons-rails'
 gem 'animate-css-rails'
 
+# app configuration using ENV and a single YAML file
+gem "figaro"
+
 # gem for accepting payment 
-# Paystack
+# Paystack -> gem 'paystackr'
 gem 'paystack', :git => 'https://github.com/IkoroVictor/paystack-ruby'
 # Stripe
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# for generating admin panel for models
+gem 'activeadmin'
+
+# Plus integrations with:
+gem 'devise'
+gem 'cancan' # or cancancan
+gem 'draper'
+gem 'pundit'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

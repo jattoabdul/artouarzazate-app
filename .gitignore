@@ -19,3 +19,6 @@ app/assets/images/.DS_Store
 /yarn-error.log
 
 .byebug_history
+
+# Ignore application configuration
+/config/application.yml

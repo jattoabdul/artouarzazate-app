@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
-  def home
+  # before_action :authorize
+  # about page action->view
+  def about
   end
 end
